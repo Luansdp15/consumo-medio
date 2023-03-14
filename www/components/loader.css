@@ -1,0 +1,121 @@
+body {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/72a9c3a8-4aa1-4e78-9d88-3aca25618cd1/d9tjc2n-014c2b3b-c5ca-4376-bead-64a23cb84988.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzcyYTljM2E4LTRhYTEtNGU3OC05ZDg4LTNhY2EyNTYxOGNkMVwvZDl0amMybi0wMTRjMmIzYi1jNWNhLTQzNzYtYmVhZC02NGEyM2NiODQ5ODguZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.yaq1i1MiDi_AMnq-u2xnOQU70GfbglPGDLPXdD58Lw8);
+    background-size: cover;
+}
+
+.a {
+    color: white;
+    width: 370px;
+    height: 690px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+    background-color: rgb(150, 214, 252);
+    background: rgba( 0, 0, 0, 0.4);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.50 );
+    backdrop-filter: blur( 10.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 5px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+input[type=number] {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-top: 15px;
+    border: none;
+}
+
+input[type=number]:focus {
+    outline: none;
+}
+
+input[type=submit] {
+    background: #f72d6a;
+    color: #fff;
+    font-family: "Tilt Neon", sans-serif;
+    font-size: 15px;
+    border: 0;
+    padding: 10px 13px 8px 13px;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+input[type=submit]:hover{
+   transform: scale(1.1);  
+   transition: all 0.2s;
+   background: #f05af1;
+
+}
+
+.resultado {
+    padding-top: 15px;
+    font-size: 20px;
+    font-family: 'Tilt Warp', sans-serif;
+    position: relative; 
+    display: inline-block; 
+}
+
+h1 {
+    color: #FFFF00;
+  
+}
+
+#titulo {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+#km {
+    width: 300px; 
+    font-family: 'Abel', sans-serif;
+  }
+
+#gas {
+    font-family: 'Abel', sans-serif;
+    width: 300px;
+}
+#modelo {
+    font-family: 'Abel', sans-serif;
+    width: 300px;
+}
+
+label {
+    padding-top: 5px;
+    font-family: "Tilt Neon", sans-serif;
+}
+
+input[type=text] {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-top: 15px;
+    border: none;
+}
+
+    input[type=number]:focus {
+        outline: none;
+}
+
+select {
+    border-radius: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+th, td{
+    padding: 8px;
+    text-align: center;
+    width: 300px;
+}
